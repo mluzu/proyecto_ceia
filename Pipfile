@@ -9,8 +9,10 @@ rasterio = "~=1.2"
 numpy = "*"
 fiona = "*"
 requests = "*"
+pillow = "*"
 
 [dev-packages]
+pytest = "*"
 
 [requires]
 python_version = "3.8"
