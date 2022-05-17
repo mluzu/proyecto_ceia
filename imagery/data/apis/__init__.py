@@ -1,1 +1,0 @@
-from .sentinelapi import SentinelApi

@@ -2,6 +2,10 @@ from abc import ABC, abstractmethod
 
 
 class Data(ABC):
+    """
+    Every class in this module should drive from this abstract class
+    in order to enforce the interface expected in Collection class
+    """
 
     @abstractmethod
     def set_bonds_filter(self, bonds):
@@ -12,7 +16,7 @@ class Data(ABC):
         pass
 
     @abstractmethod
-    def set_bands_filter(self, bands):
+    def set_bands_filter(self, *bands):
         pass
 
     @abstractmethod
@@ -24,9 +28,5 @@ class Data(ABC):
         pass
 
     @abstractmethod
-    def get(self, count):
+    def read(self, count):
         pass
-
-
-def get():
-    pass
