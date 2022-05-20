@@ -9,7 +9,6 @@ rasterio = "~=1.2"
 numpy = "*"
 fiona = "*"
 requests = "*"
-pillow = "*"
 
 [dev-packages]
 pytest = "*"

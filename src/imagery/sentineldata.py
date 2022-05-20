@@ -5,7 +5,7 @@ from rasterio.crs import CRS
 from rasterio.transform import Affine
 from requests import Session
 from requests.exceptions import HTTPError
-from .exceptions import SentinelAPIError
+from src.imagery.exceptions import SentinelAPIError
 import numpy as np
 import re
 import fnmatch

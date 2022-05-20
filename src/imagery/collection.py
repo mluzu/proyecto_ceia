@@ -1,4 +1,4 @@
-from .data import Sentinel2MSIData
+from .sentineldata import Sentinel2MSIData
 
 
 class Collection:

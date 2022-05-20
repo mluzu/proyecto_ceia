@@ -3,8 +3,8 @@ from abc import ABC, abstractmethod
 
 class Data(ABC):
     """
-    Every class in this module should drive from this abstract class
-    in order to enforce the interface expected in Collection class
+    Every class interfacing with a satellite should implement this abstract
+    class in order to enforce the expected behaviour in Collection class.
     """
 
     @abstractmethod

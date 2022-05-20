@@ -1,5 +1,5 @@
-from imagery import Collection
-from imagery import bounds
+from src.imagery import Collection
+from src.imagery import bounds
 import time
 
 
